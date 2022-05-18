@@ -54,7 +54,7 @@
 1. Install XCode: `xcode-select --install`
 2. Install Homebrew (if not already installed):
 Install homebrew: 
-```/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
 3. Install miniforge: `brew install miniforge`
 4. Install pkg-config (for matplotlib) `brew install pkg-config`
