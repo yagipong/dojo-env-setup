@@ -117,7 +117,10 @@ In order to use this file, you will first need to clone this repository to your 
     - GitHub desktop should open automatically and ask you what folder you would like to store your repository in.
     - Note: GitHub Desktop will create a NEW folder INSIDE of the folder you select. 
         - It will be named the same as the repository name.
->- In GitHub desktop, switch to the "m1-mac" branch of the repository before running the next step        
+        
+>- In GitHub desktop, switch to the "m1-mac" branch of the repository before running the next step
+![png](images/switch_branch.png)        
+
         
 4. **Once have the repository cloned, you will need to open a terminal window in the same directory as this repository.**
     - There are 2 ways to do this. 
