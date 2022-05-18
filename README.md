@@ -53,11 +53,22 @@
 #### Installing Miniforge
 1. Install XCode: `xcode-select --install`
 2. Install Homebrew (if not already installed):
-Install homebrew: 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+    - Follow the instructions from: https://docs.brew.sh/Installation
+- In brief, install homebrew: 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+- After installing homebrew, you will see a message that says run these two commands to add homebrew to your terminal. Copy and paste those exact commands into your terminal and hit enter.
 
-3. Install miniforge: `brew install miniforge`
-4. Install pkg-config (for matplotlib) `brew install pkg-config`
+![png](images/homebrew_shell_commands.png)
+
+3. Install miniforge: 
+```bash
+brew install miniforge
+```
+
+4. Install pkg-config (for matplotlib) 
+```brew install pkg-config```
 
 
     
@@ -92,7 +103,7 @@ Install homebrew:
 
 ## 2. Setting Up Your `dojo-env` Environment
 
-**We have prepared a special file for you called `environment.yml` which has a collection of all the essential packages we will need**
+**We have prepared a special file for you called `environment_m1.yml` which has a collection of all the essential packages we will need**
 
 
 In order to use this file, you will first need to clone this repository to your computer. 
@@ -106,7 +117,7 @@ In order to use this file, you will first need to clone this repository to your 
     - GitHub desktop should open automatically and ask you what folder you would like to store your repository in.
     - Note: GitHub Desktop will create a NEW folder INSIDE of the folder you select. 
         - It will be named the same as the repository name.
-        
+>- In GitHub desktop, switch to the "m1-mac" branch of the repository before running the next step        
         
 4. **Once have the repository cloned, you will need to open a terminal window in the same directory as this repository.**
     - There are 2 ways to do this. 
