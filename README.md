@@ -9,7 +9,7 @@
        - On MacOS, the shell is called Terminal and can be found in `Applications>Utilities` in Finder
        - OR you can use spotlight search and search for "Terminal".
    
-   
+<!--    
    - [ ] **Windows users should install GitBash, instead of using the windows command prompt**
        - Otherwise, all of the commands for working with your terminal will not match the curriculum and other cloud-based platforms (like Amazon Web Services)
       - Download  the Git for Windows Installer: [Git for Windows download](https://gitforwindows.org/)
@@ -17,7 +17,7 @@
     - Use the default options, EXCEPT when you see the "Advanced Installation Options" window, check BOTH options, like in the screenshot below:
     
 <img src="images/anaconda_check_path.png" width=400px>
-       
+        -->
        
 
         
@@ -42,6 +42,8 @@
 
 ### M1-Mac Miniforge Instructions
 - This approach uses miniforge instead of Anaconda.
+> Warning! You cannot install miniforge if you already have Anaconda installed. First, compeletly uninstall anaconda using the anaconda-clean package by following the instructions here:  https://docs.anaconda.com/anaconda/install/uninstall/
+
 - It installs the versions of tensorflow and other packages described in the following blog post:
     - Blog Post with Starting Instructions: https://caffeinedev.medium.com/how-to-install-tensorflow-on-m1-mac-8e9b91d93706:
 - The main differences between this and non-m1 environment:
@@ -51,7 +53,9 @@
 #### Installing Miniforge
 1. Install XCode: `xcode-select --install`
 2. Install Homebrew (if not already installed):
-`Install homebrew: `/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+Install homebrew: 
+```/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
 3. Install miniforge: `brew install miniforge`
 4. Install pkg-config (for matplotlib) `brew install pkg-config`
 
